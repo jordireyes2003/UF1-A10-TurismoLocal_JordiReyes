@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-image: url("../UF1-A10-TurismoLocal_JordiReyes/img/California-Wallpaper-Desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.flex {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+    width: calc(30% - 10px);
+    /* 10px de espacio entre las columnas */
+    float: left;
+    box-sizing: border-box;
+    margin-right: 60px;
+    /* Espacio a la derecha de cada columna */
+}
+
+.columna1,
+.columna2,
+.columna3,
+.columna4,
+.columna5,
+.columna6 {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+/* Estilos adicionales según sea necesario */
+
+header,
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    padding: 20px;
+}
+
+.mapa {
+    text-align: center;
+}
